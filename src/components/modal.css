@@ -1,0 +1,27 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:50;
+    height: 100;
+    background: rgba(241, 219, 219, 0.6);
+  }
+  
+  .modal-main {
+    position:fixed;
+    background: rgb(243, 13, 13);
+    width: 13rem;
+    height: auto;
+    top:12%;
+    right:-5%;
+    
+    transform: translate(-50%,-50%);
+  }
+  
+  .display-block {
+    display: block;
+  }
+  
+  .display-none {
+    display: none;
+  }

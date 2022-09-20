@@ -1,0 +1,16 @@
+import React from "react";
+
+const ImageList = (props) => {
+    console.log(props);
+ const images = props.image.map((image)=>{
+        return(
+            <img key={image.id} src={ image.webformatURL } alt = "image" />
+        )
+    })
+    return(
+        <div>
+            { images }
+        </div>
+    )
+}
+export default ImageList;
